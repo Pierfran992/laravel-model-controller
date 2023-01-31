@@ -7,6 +7,12 @@
     <title>Laravel movies db</title>
 </head>
 <body>
-    <h1>hello world!</h1>
+    <h1>Movies List</h1>
+
+    <ul>
+        @foreach ($movies as $movie)
+            <li>{{ $movie['title']}}</li>
+        @endforeach
+    </ul>
 </body>
 </html>

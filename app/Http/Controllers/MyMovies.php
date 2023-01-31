@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class MyMovies extends Controller
 {
-    public function index(){
+    public function home(){
 
         $movies = Movie::all();
 
