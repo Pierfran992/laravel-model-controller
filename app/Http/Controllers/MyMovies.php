@@ -15,6 +15,6 @@ class MyMovies extends Controller
             'movies' => $movies
         ];
 
-        return view('home', $data);
+        return view('pages.home', $data);
     }
 }
